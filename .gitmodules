@@ -1,0 +1,6 @@
+[submodule "HoloSummaryFrontend"]
+	path = HoloSummaryFrontend
+	url = git@github.com:homulily85/HoloSummaryFrontend.git
+[submodule "HoloSummaryBackend"]
+	path = HoloSummaryBackend
+	url = git@github.com:homulily85/HoloSummaryBackend.git
