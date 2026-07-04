@@ -5,6 +5,7 @@ on:
     branches: ["main"]
     paths:
       - "HoloSummaryFrontend"
+      - ".github/workflows/deploy.yml"
 
 permissions:
   contents: read
