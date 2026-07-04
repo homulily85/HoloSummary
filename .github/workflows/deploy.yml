@@ -41,7 +41,7 @@ jobs:
 
       - name: Build project
         working-directory: ./HoloSummaryFrontend
-        run: npm run build
+        run: npm run build -- --base=/HoloSummary/
         env:
           VITE_API_URL: ${{ secrets.VITE_BACKEND_URL }}
 
